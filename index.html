@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="divstyle.css" type="text/css" />
+    <script src="transactorJS.js"></script>
+
+    <title>TRANSACTOR | Charges Calculator</title>
+  </head>
+  <body>
+    <div id="title" ><h1>TRANSACTOR</h1><p><h3>IMT & Bank Charges Calculator</h3></p></div id title="">
+    <div id="home">
+     
+        <p><h1>Transaction Amount</h1></p>
+        <input id="amount" type="number" placeholder="Enter Amount" oninput="calc(this.value);"/>
+        <p><div id="errMsgPOS" style=" display: none;color: red;"  >...</div></p>
+        <p><div id="errMsgBank" style=" display: none;color: red;"  >...</div></p>
+      <p>
+          <div id="POS"> <h3>POS/ Swipe</h3><hr>
+            <span>IMT Gvt 2% <input class="blendOutput" type="number" id="imtGvtp" value="" disabled=true></span><br>
+            <span>Charges <input class="blendOutput" type="number" id="posCharges" value="" disabled=true></span><br>
+            <span>Charges + IMT 2% Tax <input class="blendOutput" type="number" id="posIMT" value="" disabled=true></span>
+            
+              <hr>
+            
+              Minimum Balance
+               <input class="blendOutputs" type="number" id="posIMTminbal" value="" disabled=true>
+          
+           
+          </div>
+                            
+        </p>
+    <p>
+        <div id="Transfer"><h3>Zipit Bank Transfers </h3>
+          <hr>
+            <span>IMT Gvt 2% <input class="blendOutput" type="number" id="imtGvtb" value="" disabled=true></span><br>
+            <span>Charges 3%<input class="blendOutput" type="number" id="transferCharges" value="" disabled=true></span><br>
+            <span>Charges + IMT 2% Tax <input class="blendOutput" type="number" id="bankIMT" value="" disabled=true></span>
+              <hr>       
+              Minimum Balance
+            <input class="blendOutputs" type="number" id="minBalTransfer" value="" disabled=true>
+        </div>
+    </p>
+    <p>  
+        <div id="IMT">IMT Gvt 2% 
+          <br>
+          <input class="blendOutput" type="number" id="imtGvt" value="" disabled=true>
+        </div>
+    </p> <div id="Notes"><h1>Note On Charges</h1>
+        <p>Charges above may vary from bank to bank, an average of <strong >3%</strong>  bank charges<span> was used to come up with the the above <em>16/02/2021</em></span></p>          
+        <p>Interbank transfer Charges are <del>fixed</del> for Zipit <strong>%3</strong> (Average)</p>
+        <p>Intrabank transfer Charges are <del>fixed and</del>  cheaper <strong>2%</strong> (Average)</p></div>
+    </div>   
+    </div>
+
+  </body>
+</html>
