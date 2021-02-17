@@ -6,6 +6,7 @@
   text-align: center;
   background: #ffffff;
   box-shadow: 2px 2px 5px 1px black;
+  min-width: 320px;
 }
 
 #POS {
@@ -50,7 +51,7 @@
 }
 #title {
   z-index: 1001;
-  left: 40px;
+  left: 20px;
   position: relative;
   top: 40px;
   width: fit-content;
@@ -71,6 +72,7 @@ h3 {
 body {
   background-color: #e2f5fe;
 }
+
 .blendOutput {
   height: 20px;
   font-size: larger;
