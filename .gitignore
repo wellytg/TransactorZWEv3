@@ -1,0 +1,15 @@
+.context.md
+_manifest.md
+._manifest_state.txt
+visit_log.md
+.llm_history/
+.env
+CLAUDE.md
+GEMINI.md
+LOCAL_LLM.md
+STATE.json
+JOURNAL.md
+PROJECT_STATUS.md
+.claude/
+.manifest_baseline.json
+.no_drift_scan
