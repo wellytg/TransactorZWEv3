@@ -23,4 +23,4 @@ Transactor ZWE v3 provides real-time calculations for:
 3. The calculator will instantaneously update the IMT Tax, Bank Charges, and required Minimum Balance across different transaction types.
 
 ---
-*Developed by Wellington Tatenda Gwavava*
+*Developed by Wellington Gwavava*
